@@ -3,9 +3,9 @@ public class Driver {
         public static void main(String[] args) {
 
             
-            GarmentFactory factory = new ProfessionalFactory();
-            GarmentFactory factory = new PartyFactory();
-            GarmentFactory factory = new CasualFactory();
+            GarmentFactory professional = new ProfessionalFactory();
+            GarmentFactory party = new PartyFactory();
+            GarmentFactory casual = new CasualFactory();
 
             Top top = factory.createTop();
             Pants pants = factory.createPants();
