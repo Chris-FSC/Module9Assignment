@@ -2,9 +2,10 @@ public class Driver {
     public class Driver {
         public static void main(String[] args) {
 
-            // Choose a garment family (variant)
+            
             GarmentFactory factory = new ProfessionalFactory();
-            // Try switching to: new CasualFactory() or new PartyFactory()
+            GarmentFactory factory = new PartyFactory();
+            GarmentFactory factory = new CasualFactory();
 
             Top top = factory.createTop();
             Pants pants = factory.createPants();
